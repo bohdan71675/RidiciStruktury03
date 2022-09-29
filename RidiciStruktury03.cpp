@@ -45,7 +45,7 @@ int main()
             }
             else
             {
-                cout << "Zadne sude cislo";
+                cout << "Zadne sude cislo" << endl;
             }
         }
         case 'D':
@@ -75,7 +75,7 @@ int main()
             }
             else
             {
-                cout << "Zadne sude cislo";
+                cout << "Zadne sude cislo" << endl;
             }
         }
         break;
