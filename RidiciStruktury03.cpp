@@ -48,6 +48,7 @@ int main()
                 cout << "Zadne sude cislo" << endl;
             }
         }
+        break;
         case 'D':
         {
             int x;
@@ -59,13 +60,16 @@ int main()
             cin >> x;
             do
             {
-                soucin *= x;
-                if (x % 2 == 0)
+                if (x != 0)
                 {
-                    soucet += x;
-                    ++pocet;
+                    soucin *= x;
+                    if (x % 2 == 0)
+                    {
+                        soucet += x;
+                        ++pocet;
+                    }
+                    cin >> x;
                 }
-                cin >> x;
             } while (x != 0);
             cout << "Soucin je " << soucin << endl;
             if (pocet > 0)
