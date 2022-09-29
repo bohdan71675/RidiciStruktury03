@@ -25,7 +25,7 @@ int main()
             int pocet = 0;
             int soucet = 0;
             double prumer;
-            cout << "Zadavej nenulova cisla, 0 znamena jinec: \n";
+            cout << " Zadavej nenulova cisla, 0 znamena jinec: \n";
             cin >> x;
             while (x != 0)
             {
@@ -55,7 +55,7 @@ int main()
             int pocet = 0;
             int soucet = 0;
             double prumer;
-            cout << "Zadavej nenulova cisla, 0 znamena jinec: \n";
+            cout << " Zadavej nenulova cisla, 0 znamena jinec: \n";
             cin >> x;
             do
             {
