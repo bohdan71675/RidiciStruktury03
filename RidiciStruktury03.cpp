@@ -15,7 +15,7 @@ int main()
         {
         case 'F':
         {
-            cout << "Je zbytecny nepotrebujeme pricitat icka zadavame sami cisla";
+            cout << "Je zbytecny nepotrebujeme pricitat, cisla zadavame sami";
         }
         break;
         case 'W':
@@ -58,9 +58,9 @@ int main()
             double prumer;
             cout << " Zadavej nenulova cisla, 0 znamena jinec: \n";
             cin >> x;
-            do
+            if (x > 0)
             {
-                if (x != 0)
+                do
                 {
                     soucin *= x;
                     if (x % 2 == 0)
@@ -69,9 +69,14 @@ int main()
                         ++pocet;
                     }
                     cin >> x;
-                }
-            } while (x != 0);
-            cout << "Soucin je " << soucin << endl;
+
+                } while (x != 0);
+                cout << "Soucin je " << soucin << endl;
+            }
+            else
+            {
+                cout << "Nezadal jsi zadny prvek";
+            }
             if (pocet > 0)
             {
                 prumer = (double)soucet / pocet;
