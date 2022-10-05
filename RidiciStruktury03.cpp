@@ -15,7 +15,7 @@ int main()
         {
         case 'F':
         {
-            cout << "Je zbytecny nepotrebujeme pricitat, cisla zadavame sami";
+            cout << "Nelze pouzit nevime pocet opakovani";
         }
         break;
         case 'W':
